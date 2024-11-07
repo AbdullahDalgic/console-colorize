@@ -1,0 +1,48 @@
+{
+  "name": "easy-console-color",
+  "description": "Easily add color and style to console output in both web and shell environments using intuitive placeholders.",
+  "version": "1.0.0",
+  "private": false,
+  "author": "Abdullah Dalgıç <abdullahdalgic33@gmail.com> (http://www.abdullahdalgic.com.tr)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AbdullahDalgic/easy-console-color/issues"
+  },
+  "homepage": "https://github.com/AbdullahDalgic/easy-console-color#readme",
+  "keywords": [
+    "easy-console-color",
+    "console",
+    "colorize",
+    "console color",
+    "console colors",
+    "console log",
+    "console styling",
+    "terminal colors",
+    "web colors",
+    "shell colors",
+    "nodejs console",
+    "ansi colors",
+    "text styling",
+    "background colors",
+    "console.log",
+    "console.warn",
+    "console.error",
+    "console.info",
+    "javascript",
+    "node.js",
+    "chalk",
+    "web",
+    "shell",
+    "cli tool"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.6"
+  }
+}
